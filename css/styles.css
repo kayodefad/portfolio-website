@@ -12,8 +12,7 @@ body {
 /* Header
 ---------------------------*/
 header {
-background:linear-gradient(0deg,rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/header-bg.jpg);
-background-size:cover;
+    background: #2b579e;
     color: #ffffff;
 }
 .logo-name h1 {

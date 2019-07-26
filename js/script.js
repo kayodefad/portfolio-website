@@ -35,7 +35,7 @@
             
             var sep = '<span class="' + sepClass + '">:</span>';
         
-            currentTime.innerHTML = hours + sep + minutes + ' ' + ampm;
+//            currentTime.innerHTML = hours + sep + minutes + ' ' + ampm;
             // currentDate.textContent = month + ' ' + date;
         }, 1000);
         

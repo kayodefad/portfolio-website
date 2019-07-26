@@ -12,7 +12,7 @@ body {
 /* Header
 ---------------------------*/
 header {
-    background:linear-gradient(0deg,rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../images/header-bg.jpg);
+    background:linear-gradient(0deg,rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/header-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -48,6 +48,14 @@ header a:hover {
     margin-bottom: 170px;
     font-size: 1.3rem;  
 }
+/*
+#current-time {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: black;
+}
+*/
 
 /* Main Content
 ---------------------------*/
@@ -125,9 +133,7 @@ nav dl dt{
 /* Clock
 ----------------------------*/
 #clock {
-    font-size: 24px; 
-    /* position: absolute;
-    left: px; */
+    font-size: 24px;  
 }
 
 .trans {

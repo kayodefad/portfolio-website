@@ -66,6 +66,52 @@
             General messages may be sent via the contact form.     
         </small>
         <p class="mt-2"><small style="font-weight: bold">About You</small></p> 
+            
+        <form class="needs-validation" novalidate id="personalinfo" method="POST" action="mailto:fadojuk@gmail.com" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="firstname" class="col-form-label">Your Name</label>
+            <input type="name" class="form-control" name="firstname" id="firstname" placeholder="eg. Kayode Fadoju" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="eg. danladi@gmail.com" required>
+            <small id="emailHelp" class="form-text text-muted"><i>We'll never share your email with anyone else.</i></small>
+        </div> 
+        
+        <div class="form-group">
+            <label for="phone">Telephone Number</label>
+            <input type="tel" class="form-control" name="phone" id="phone" placeholder="eg. +234 (0) 703572995">
+        </div>
+        
+        <div class="form-group">
+            <label for="website">Your Website</label>
+            <input type="url" class="form-control" id="website" name="website" placeholder="danladi.com.ng">
+        </div>
+            
+        <div class="form-group">
+            <label for="country">Your Ideal Completion Date</label>
+                <select class="custom-select" id="country">
+                    <option selected>Please Select</option>
+                            <option>As soon as possible</option>
+                            <option>In 1 month</option>
+                            <option>In 2 months</option>
+                            <option>In 3 months or more</option>
+                            <option>Not sure/ To be determined</option>
+                </select>
+        </div>
+            
+        <div class="form-group">
+            <label for="projectdesc">
+                <p class="mt-5 mb-2"><small style="font-weight: bold">Project Description</small></p>
+                <small>Please briefly describe your project, what you aim to achieve, what you'd like me to do and link to any appropriate materials.</small>
+            </label>
+                <textarea class="form-control" id="projectdesc" rows="7"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary mt-3 text-uppercase">Send</button>
+    </form>
         
      </div>
      </div>
